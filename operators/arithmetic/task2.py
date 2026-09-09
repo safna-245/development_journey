@@ -1,0 +1,4 @@
+total_no_of_apples=120
+no_of_apples_sold=25
+no_of_apples_left=total_no_of_apples-no_of_apples_sold
+print(no_of_apples_left)

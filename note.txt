@@ -1,0 +1,56 @@
+#mapping:group of values transform to another value(change all value and store to another variable)
+#filter:condition based(right side condition)
+#sort:ascending or descending order
+#reduce:group of object process to one value(eg:lowest hight(only one))like max,min,sum
+
+"""DATASET
+
+Use the 25-record transactions dataset from the previous conversation.
+
+PRACTICE QUESTIONS
+
+ID 1. Display all transaction IDs. 2. Find the first transaction. 3.
+Find the last transaction. 4. Find transaction with ID=15. 5. Check
+whether ID 30 exists.
+
+TITLE 6. Display all titles. 7. Display unique titles. 8. Count unique
+titles. 9. Find titles containing ‘Bill’. 10. Find titles starting with
+‘G’.
+
+PAYER 11. Display all payers. 12. Display unique payers. 13. Count
+unique payers. 14. Count transactions by payer. 15. Find payer with
+highest number of transactions. 16. Find all transactions by Rahul. 17.
+Find payers with more than 3 transactions.
+
+BENEFICIARY 18. Display all beneficiaries. 19. Display unique
+beneficiaries. 20. Count payments per beneficiary. 21. Find transactions
+paid to Netflix. 22. Beneficiary with highest number of payments. 23.
+Beneficiaries with only one payment.
+
+AMOUNT 24. Total amount. 25. Maximum amount. 26. Minimum amount. 27.
+Average amount. 28. Count transactions > 5000. 29. Transactions between
+1000 and 5000. 30. Second highest amount. 31. Third lowest amount. 32.
+Top five highest transactions. 33. Five smallest transactions. 34. Total
+amount paid by Rahul.
+
+DATE 35. Display all dates. 36. Sort by date. 37. Transactions after Jan
+20. 38. Transactions before Jan 10. 39. Transactions during last week.
+
+TRANSACTION METHOD 40. Display all methods. 41. Display unique methods.
+42. Count by method. 43. Most used method. 44. Total amount through UPI.
+45. Average amount by method.
+
+MULTI-COLUMN 46. Total received by each beneficiary. 47. Total paid by
+each payer. 48. Payer who spent the most. 49. Beneficiary who received
+the most. 50. Dashboard: total transactions, total amount, average,
+highest, lowest, most active payer, most paid beneficiary, most used
+method, unique payers, unique beneficiaries.
+
+BONUS 51. Dictionary: payer -> list of transactions. 52. Dictionary:
+beneficiary -> total received. 53. Group by transaction method. 54. Find
+duplicate titles. 55. Percentage by transaction method. 56. Monthly
+summary. 57. Highest average amount by payer. 58. Beneficiaries paid by
+multiple payers. 59. Rank payers by spending. 60. Build a complete
+analytics dashboard using pure Python.
+"""
+

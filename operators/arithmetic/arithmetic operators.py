@@ -1,0 +1,8 @@
+meal_type_breakfast=250
+meal_type_lunch=450
+meal_type_snacks=200
+meal_type_dinner=250
+total_calorie=meal_type_breakfast +meal_type_lunch +meal_type_snacks +meal_type_dinner
+print(total_calorie)
+avg_calorie=total_calorie/4
+print(avg_calorie)
