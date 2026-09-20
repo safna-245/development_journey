@@ -8,21 +8,18 @@ class Palindrome:
 
         right = len(word)-1
 
-        word = list(word)
-
         while(left<right):
 
-            word[left],word[right] = word[right],word[left]
+            if word[left] != word[right]:
 
+                result=False
+                break
+            
             left = left +1
 
             right = right - 1
 
         print(word)
-
-
-
-
 
         return result
 
